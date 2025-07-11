@@ -1,0 +1,15 @@
+Why do we need Router
+What is Router?
+How to create Router?
+
+app.use()
+    - Router?
+    - Validation?
+    - parsing?
+
+Router
+Controller
+Model
+Middleware
+Dynamic Routing
+Status Codes
