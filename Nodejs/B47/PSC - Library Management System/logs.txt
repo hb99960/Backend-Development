@@ -1,0 +1,24 @@
+[2025-07-14T04:44:16.454Z] Book created: title 3 (ID: 5)
+[2025-07-14T04:46:00.839Z] Book updated: title 3 (ID: 5)
+[2025-07-14T04:47:28.906Z] Book deleted: title 1 (ID: 1)
+[2025-07-14T04:51:28.667Z] Book borrowed: title 2 (ID: 2) by John Doe
+[2025-07-14T04:53:07.706Z] Book returned: title 2 (ID: 2)
+[2025-07-14T04:53:18.780Z] Book returned: The Great Gatsby (ID: 3)
+[2025-07-14T04:53:26.837Z] Book borrowed: title 2 (ID: 2) by John Doe
+[2025-07-14T05:01:47.484Z] Book borrowed: The Great Gatsby (ID: 3) by John Doe
+[2025-07-14T05:01:56.997Z] Book borrowed: To Kill a Mockingbird (ID: 4) by John Doe
+[2025-07-14T05:02:02.890Z] Book borrowed: title 3 (ID: 5) by John Doe
+[2025-07-14T05:02:15.945Z] Book returned: title 3 (ID: 5)
+[2025-07-14T05:02:17.131Z] Book returned: To Kill a Mockingbird (ID: 4)
+[2025-07-14T05:02:18.484Z] Book returned: The Great Gatsby (ID: 3)
+[2025-07-14T05:02:19.688Z] Book returned: title 2 (ID: 2)
+[2025-07-14T05:09:49.438Z] Book borrowed: title 3 (ID: 5) by John Doe
+[2025-07-14 05:14:09] GET /health-check
+[2025-07-14 05:14:38] GET /readers/
+[2025-07-14 05:14:54] POST /readers/borrow/5
+[2025-07-14 05:15:02] POST /readers/return/5
+[2025-07-14 05:15:22] POST /readers/return/5
+[2025-07-14T05:15:22.694Z] Book returned: title 3 (ID: 5)
+[2025-07-14 05:15:44] POST /readers/borrow/5
+[2025-07-14T05:15:44.269Z] Book borrowed: title 3 (ID: 5) by John Doe
+[2025-07-14 05:15:48] POST /readers/borrow/5
